@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyRecipes.SpaghettiBolonaise">
+    <Grid Padding="0.5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.Row="0" Text="Spaghetti Bolonaise"/>
+        <Label Grid.Row="1" Text="Steve"/>
+        <Label Grid.Row="2" Text="Ingredients"/>
+        <Label Grid.Row="3" Text="Spaghetti"/>
+        <Label Grid.Row="3" Text="500g mince"/>
+        <Label Grid.Row="3" Text="Tomatoes"/>
+        <Label Grid.Row="4" Text="Steps"/>
+        <Label Grid.Row="5" Text="1.Boil water"/>
+        <Label Grid.Row="5" Text="2.Add salt"/>
+        <Label Grid.Row="5" Text="3.Add Spaghetti"/>
+        <Button Grid.Row="6" Grid.Column="0" Text="SAVE"/>
+        <Button Grid.Row="6" Grid.Column="1" Text="DELETE"/>
+        
+    </Grid>
+</ContentPage>

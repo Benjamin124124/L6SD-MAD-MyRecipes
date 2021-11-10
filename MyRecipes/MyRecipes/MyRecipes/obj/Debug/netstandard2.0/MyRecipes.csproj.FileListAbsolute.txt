@@ -1,0 +1,16 @@
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\bin\Debug\netstandard2.0\MyRecipes.deps.json
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\bin\Debug\netstandard2.0\MyRecipes.dll
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\bin\Debug\netstandard2.0\ref\MyRecipes.dll
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\bin\Debug\netstandard2.0\MyRecipes.pdb
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\MyRecipes.csproj.AssemblyReference.cache
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\MyRecipes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\SpaghettiBolonaise.xaml.g.cs
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\MyRecipes.AssemblyInfoInputs.cache
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\MyRecipes.AssemblyInfo.cs
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\MyRecipes.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\MyRecipes.dll
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\ref\MyRecipes.dll
+C:\Users\Benjamin\source\repos\MyRecipes\MyRecipes\MyRecipes\obj\Debug\netstandard2.0\MyRecipes.pdb
