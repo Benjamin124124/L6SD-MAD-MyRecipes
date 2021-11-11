@@ -540,11 +540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
+      "projectUniqueName": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
       "projectName": "MyRecipes",
-      "projectPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
+      "projectPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
       "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\obj\\",
+      "outputPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

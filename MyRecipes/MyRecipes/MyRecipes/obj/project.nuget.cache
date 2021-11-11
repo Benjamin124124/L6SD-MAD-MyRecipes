@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aQeLkBrS6LLXLK3+A4bm3mOrHGJErZrJqxhdDj85moN/9n+a37iFlKcIse+5BM3iRH1WdyeVy5TplSeND+2O7A==",
+  "dgSpecHash": "sABxlz6fSdo7EjdCXd6PxVFGSWcyCDL41X+7PINBcDveZGNt8/YHoPlZmfK/Pg5YLBeVHUHmz+TWmw/xhTW62Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
+  "projectFilePath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj": {}
+    "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj": {
+    "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
+        "projectUniqueName": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
         "projectName": "MyRecipes.Android",
-        "projectPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
+        "projectPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
         "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\obj\\",
+        "outputPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj": {
-                "projectPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj"
+              "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj": {
+                "projectPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj": {
+    "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
+        "projectUniqueName": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
         "projectName": "MyRecipes",
-        "projectPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
+        "projectPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj",
         "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\obj\\",
+        "outputPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

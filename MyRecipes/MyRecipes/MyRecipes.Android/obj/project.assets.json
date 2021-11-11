@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
+      "projectUniqueName": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
       "projectName": "MyRecipes.Android",
-      "projectPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
+      "projectPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
       "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\obj\\",
+      "outputPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj": {
-              "projectPath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj"
+            "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj": {
+              "projectPath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.csproj"
             }
           }
         }

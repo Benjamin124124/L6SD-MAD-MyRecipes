@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1FYiJYU47iJJKQhethdfSHYOgWAdLEkF0o86zotSghX0tTMT1LrF321UkDTj851bJ+6n96mwKRjKDiyRqxlDgg==",
+  "dgSpecHash": "lc5VH8h4QLqYaGfZtOX5JAMYumWgzTocnnrAd/82fq5tIemHcy/efRJhdwiUfqzubUj54XIDwGkh/XAsF+JNzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Benjamin\\source\\repos\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
+  "projectFilePath": "E:\\Documents\\Techtorium Stuff\\L6SD-MAD-MyRecipes\\MyRecipes\\MyRecipes\\MyRecipes.Android\\MyRecipes.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Benjamin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
