@@ -33,7 +33,6 @@ E:\Documents\Techtorium Stuff\L6SD-MAD-MyRecipes\MyRecipes\MyRecipes\MyRecipes.A
 E:\Documents\Techtorium Stuff\L6SD-MAD-MyRecipes\MyRecipes\MyRecipes\MyRecipes.Android\obj\Debug\110\R.txt
 E:\Documents\Techtorium Stuff\L6SD-MAD-MyRecipes\MyRecipes\MyRecipes\MyRecipes.Android\obj\Debug\110\R.cs.flag
 E:\Documents\Techtorium Stuff\L6SD-MAD-MyRecipes\MyRecipes\MyRecipes\MyRecipes.Android\obj\Debug\110\MyRecipes.Android.csproj.CoreCompileInputs.cache
-E:\Documents\Techtorium Stuff\L6SD-MAD-MyRecipes\MyRecipes\MyRecipes\MyRecipes.Android\obj\Debug\110\MyRecipes.Android.csproj.CopyComplete
 E:\Documents\Techtorium Stuff\L6SD-MAD-MyRecipes\MyRecipes\MyRecipes\MyRecipes.Android\obj\Debug\110\MyRecipes.Android.dll
 E:\Documents\Techtorium Stuff\L6SD-MAD-MyRecipes\MyRecipes\MyRecipes\MyRecipes.Android\obj\Debug\110\MyRecipes.Android.pdb
 E:\Documents\Techtorium Stuff\L6SD-MAD-MyRecipes\MyRecipes\MyRecipes\MyRecipes.Android\obj\Debug\110\android\bin\com.companyname.myrecipes.apk

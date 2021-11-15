@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyRecipes.MainPage" Title="MyRecipes">
+             xlms:local="clr-namespace:MyRecipes"
+             x:Class="MyRecipes.HomePage" Title="MyRecipes">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -13,19 +14,17 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-
-        <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
-            <Button.Text>Spaghetti Bolognaise</Button.Text>
-        </Button>
-        <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
-            <Button.Text>Pizza</Button.Text>
-        </Button>
-            <Frame Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
-            <Label Text="Pizza" FontAttributes="Bold"/>
-        </Frame>
-        
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Frame>
+                    <StackLayout>
+                        <Button Text="Spaghetti Bolognaise" Clicked="OnSpag"/>
+                        <Label Text="Steve" TextColor="#333" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
     </Grid>
 </ContentPage>

@@ -8,11 +8,16 @@ using Xamarin.Forms;
 
 namespace MyRecipes
 {
-    public partial class MainPage : ContentPage
+    public partial class HomePage : ContentPage
     {
-        public MainPage()
+        public HomePage()
         {
             InitializeComponent();
+        }
+
+        async void OnSpag(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SpaghettiBolonaise());
         }
     }
 }
