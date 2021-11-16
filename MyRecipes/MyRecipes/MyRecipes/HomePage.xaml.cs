@@ -15,9 +15,30 @@ namespace MyRecipes
             InitializeComponent();
         }
 
+        async void OnAdd(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Add());
+        }
+
         async void OnSpag(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new SpaghettiBolonaise());
+        }
+        async void OnPizza(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Pizza());
+        }
+        async void OnBurg(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Burger());
+        }
+        async void OnLasa(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Lasagne());
+        }
+        async void OnCrumb(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AppleCrumble());
         }
     }
 }

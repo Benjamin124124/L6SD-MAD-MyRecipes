@@ -10,7 +10,7 @@ namespace MyRecipes
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new NavigationPage());
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()

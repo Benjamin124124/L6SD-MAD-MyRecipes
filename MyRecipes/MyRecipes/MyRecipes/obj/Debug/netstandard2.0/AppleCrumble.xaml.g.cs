@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MyRecipes.HomePage.xaml", "HomePage.xaml", typeof(global::MyRecipes.HomePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MyRecipes.AppleCrumble.xaml", "AppleCrumble.xaml", typeof(global::MyRecipes.AppleCrumble))]
 
 namespace MyRecipes {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("HomePage.xaml")]
-    public partial class HomePage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("AppleCrumble.xaml")]
+    public partial class AppleCrumble : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomePage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AppleCrumble));
         }
     }
 }

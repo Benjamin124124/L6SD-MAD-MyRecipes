@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyRecipes.SpaghettiBolonaise">
+             x:Class="MyRecipes.Add">
     <ContentView Padding="20" BackgroundColor="Beige">
         <StackLayout>
-            <Editor Text="Spaghetti Bolognaise" AutoSize="TextChanges" TextColor="black" FontAttributes="Bold" FontSize="20"/>
-            <Editor Text="Steve" AutoSize="TextChanges" TextColor="black" FontSize="18"/>
+            <Editor Placeholder="Recipe Name" AutoSize="TextChanges" TextColor="black" FontAttributes="Bold" FontSize="20"/>
+            <Editor Placeholder="Source" AutoSize="TextChanges" TextColor="black" FontSize="18"/>
             <Label Text="Ingredients"/>
-            <Editor TextColor="black" FontSize="18" AutoSize="TextChanges" Text="Spaghetti &#10; 500g mince &#10; Tomatoes"/>
+            <Editor TextColor="black" FontSize="18" AutoSize="TextChanges" Placeholder="List ingredients here"/>
             <Label Text="Steps"/>
-            <Editor TextColor="black" FontSize="18" AutoSize="TextChanges" Text="1. Boil water &#10; 2. Add salt &#10; 3. Add spaghetti"/>
+            <Editor TextColor="black" FontSize="18" AutoSize="TextChanges" Placeholder="List steps here"/>
             <StackLayout Orientation="Horizontal">
                 <StackLayout>
                     <Button Padding="70,0" BackgroundColor="LightGray" Text="Save"/>
                 </StackLayout>
                 <StackLayout>
-                    <Button Padding="70,0" BackgroundColor="LightGray" Text="Delete"/>
+                    <Button Padding="70,0" BackgroundColor="LightGray" Text="Cancel"/>
                 </StackLayout>
             </StackLayout>
         </StackLayout>

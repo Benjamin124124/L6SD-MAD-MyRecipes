@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyRecipes.Pizza">
+    <ContentView Padding="20" BackgroundColor="Beige">
+        <StackLayout>
+            <Editor Text="Pizza" AutoSize="TextChanges" x:Name="RecipeEdit" TextColor="black" FontAttributes="Bold" TextChanged="RecipeChanged" FontSize="20"/>
+            <Editor Text="Jamie Oliver"  AutoSize="TextChanges" x:Name="SourceEdit" TextChanged="SourceChanged"  TextColor="black" FontSize="18"/>
+            <Label Text="Ingredients"/>
+            <Editor TextColor="black" AutoSize="TextChanges" x:Name="IngredsEdit" FontSize="18" TextChanged="IngredsChanged" Text="Pizza Dough &#10; Tomato Paste &#10; Mozzarella"/>
+            <Label Text="Steps"/>
+            <Editor TextColor="black" AutoSize="TextChanges" x:Name="StepsEdit" FontSize="18" TextChanged="StepsChanged" Text="1. Knead Dough &#10; 2. Add Tomato Paste &#10; 3. Add Mozzarella"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout>
+                    <Button Padding="70,0" x:Name="Save" BackgroundColor="LightGray" Text="Save" Clicked="OnSave"/>
+                </StackLayout>
+                <StackLayout>
+                    <Button Padding="70,0" BackgroundColor="LightGray" Text="Delete" Clicked="OnDelete"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentView>
+</ContentPage>
