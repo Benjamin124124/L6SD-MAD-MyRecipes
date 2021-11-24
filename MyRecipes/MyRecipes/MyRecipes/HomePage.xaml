@@ -9,7 +9,7 @@
                      Priority="0"
                      Clicked="OnAdd"/>
     </ContentPage.ToolbarItems>
-    <ContentView>
+    <ContentPage.Content>
 
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <StackLayout Padding="0,0" Orientation="Horizontal">
@@ -53,5 +53,5 @@
                 </Frame>
             </StackLayout>
         </StackLayout>
-        </ContentView>
+        </ContentPage.Content>
 </ContentPage>

@@ -16,5 +16,35 @@ namespace MyRecipes
         {
             InitializeComponent();
         }
+
+        async void OnDelete(object sender, EventArgs e)
+        {
+            this.Navigation.RemovePage(this.Navigation.NavigationStack[this.Navigation.NavigationStack.Count - 2]);
+            await this.Navigation.PopAsync();
+        }
+
+        void NameTextChanged (object sender, TextChangedEventArgs e)
+        {
+            var oldText = e.OldTextValue;
+            var newText = e.NewTextValue;
+        }
+
+        void SrcTextChanged(object sender, TextChangedEventArgs e)
+        {
+            var oldText = e.OldTextValue;
+            var newText = e.NewTextValue;
+        }
+
+        void IngTextChanged(object sender, TextChangedEventArgs e)
+        {
+            var oldText = e.OldTextValue;
+            var newText = e.NewTextValue;
+        }
+
+        void StepsTextChanged(object sender, TextChangedEventArgs e)
+        {
+            var oldText = e.OldTextValue;
+            var newText = e.NewTextValue;
+        }
     }
 }
