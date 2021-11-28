@@ -16,5 +16,10 @@ namespace MyRecipes
         {
             InitializeComponent();
         }
+
+        void Save()
+        {
+            File.WriteAllText(Editor.TextProperty, );
+        }
     }
 }

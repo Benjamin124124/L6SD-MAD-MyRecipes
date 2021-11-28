@@ -10,48 +10,53 @@
                      Clicked="OnAdd"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-
-            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
-                <StackLayout Padding="0,0" Orientation="Horizontal">
-                <Frame Padding="24" BackgroundColor="#FFF">
-                        <StackLayout>
-                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Spaghetti Bolognaise 🍝" Clicked="OnSpag"/>
-                            <Label Text="Steve" TextColor="#333" HorizontalOptions="EndAndExpand"/>
+        <ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <StackLayout>
+                                    <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Spaghetti Bolognaise 🍝" Clicked="OnSpag"/>
+                                    <Label Text="Steve" TextColor="#333" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Padding="2,0" Orientation="Horizontal">
+                                <Frame Padding="24" BackgroundColor="#FFF">
+                                    <StackLayout>
+                                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Pizza 🍕" Clicked="OnPizza"/>
+                                        <Label Text="Jamie Oliver" TextColor="#333" HorizontalOptions="EndAndExpand"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <StackLayout  Orientation="Horizontal">
+                                <Frame BackgroundColor="#FFF">
+                                    <StackLayout>
+                                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Burger 🍔" Clicked="OnBurg"/>
+                                        <Label Text="Gordon Ramsey" TextColor="#333" HorizontalOptions="EndAndExpand"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="#FFF">
+                                    <StackLayout>
+                                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Beef Lasagne" Clicked="OnLasa"/>
+                                        <Label Text="Andrew" TextColor="#333" HorizontalOptions="EndAndExpand"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="#FFF">
+                                    <StackLayout>
+                                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Apple Crumble" Clicked="OnCrumb"/>
+                                        <Label Text="Davie" TextColor="#333" HorizontalOptions="EndAndExpand"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
                         </StackLayout>
-                    </Frame>
-                </StackLayout>
-                <StackLayout Padding="2,0" Orientation="Horizontal">
-                <Frame Padding="24" BackgroundColor="#FFF">
-                        <StackLayout>
-                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Pizza 🍕" Clicked="OnPizza"/>
-                            <Label Text="Jamie Oliver" TextColor="#333" HorizontalOptions="EndAndExpand"/>
-                        </StackLayout>
-                    </Frame>
-                </StackLayout>
-                <StackLayout  Orientation="Horizontal">
-                <Frame BackgroundColor="#FFF">
-                        <StackLayout>
-                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Burger 🍔" Clicked="OnBurg"/>
-                            <Label Text="Gorden Ramsey" TextColor="#333" HorizontalOptions="EndAndExpand"/>
-                        </StackLayout>
-                    </Frame>
-                </StackLayout>
-                <StackLayout Orientation="Horizontal">
-                <Frame BackgroundColor="#FFF">
-                        <StackLayout>
-                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Beef Lasagne" Clicked="OnLasa"/>
-                            <Label Text="Andrew" TextColor="#333" HorizontalOptions="EndAndExpand"/>
-                        </StackLayout>
-                    </Frame>
-                </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Frame BackgroundColor="#FFF">
-                    <StackLayout>
-                        <Button BackgroundColor="LightSteelBlue" Padding="10" Text="Apple Crumble" Clicked="OnCrumb"/>
-                        <Label Text="Davie" TextColor="#333" HorizontalOptions="EndAndExpand"/>
-                    </StackLayout>
-                </Frame>
-            </StackLayout>
-        </StackLayout>
-        </ContentPage.Content>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
 </ContentPage>

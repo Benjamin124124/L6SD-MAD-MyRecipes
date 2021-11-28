@@ -15,6 +15,7 @@ namespace MyRecipes
         public SpaghettiBolonaise()
         {
             InitializeComponent();
+            
         }
 
         async void OnDelete(object sender, EventArgs e)

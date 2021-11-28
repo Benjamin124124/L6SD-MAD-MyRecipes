@@ -4,12 +4,12 @@
              x:Class="MyRecipes.Add">
     <ContentView Padding="20" BackgroundColor="Beige">
         <StackLayout>
-            <Editor Placeholder="Recipe Name" AutoSize="TextChanges" TextColor="black" FontAttributes="Bold" FontSize="20"/>
-            <Editor Placeholder="Source" AutoSize="TextChanges" TextColor="black" FontSize="18"/>
+            <Editor Placeholder="Recipe Name" x:Name="RecName" AutoSize="TextChanges" TextColor="black" FontAttributes="Bold" FontSize="20"/>
+            <Editor Placeholder="Source" x:Name="RecSrc" AutoSize="TextChanges" TextColor="black" FontSize="18"/>
             <Label Text="Ingredients"/>
-            <Editor TextColor="black" FontSize="18" AutoSize="TextChanges" Placeholder="List ingredients here"/>
+            <Editor TextColor="black" x:Name="RecIngred" FontSize="18" AutoSize="TextChanges" Placeholder="List ingredients here"/>
             <Label Text="Steps"/>
-            <Editor TextColor="black" FontSize="18" AutoSize="TextChanges" Placeholder="List steps here"/>
+            <Editor TextColor="black" x:Name="RecSteps" FontSize="18" AutoSize="TextChanges" Placeholder="List steps here"/>
             <StackLayout Orientation="Horizontal">
                 <StackLayout>
                     <Button Padding="70,0" BackgroundColor="LightGray" Text="Save"/>
