@@ -4,12 +4,12 @@
              x:Class="MyRecipes.SpaghettiBolonaise">
     <ContentView Padding="20" BackgroundColor="Beige">
         <StackLayout>
-            <Editor Text="Spaghetti Bolognaise" x:Name="Recipe" TextChanged="NameTextChanged" AutoSize="TextChanges" TextColor="black" FontAttributes="Bold" FontSize="20"/>
-            <Editor Text="Steve" x:Name="Source" TextChanged="SrcTextChanged" AutoSize="TextChanges" TextColor="black" FontSize="18"/>
+            <Editor Text="Spaghetti Bolognaise" x:Name="Recipe" AutoSize="TextChanges" TextColor="black" FontAttributes="Bold" FontSize="20"/>
+            <Editor Text="Steve" x:Name="Source" AutoSize="TextChanges" TextColor="black" FontSize="18"/>
             <Label Text="Ingredients"/>
-            <Editor TextColor="black" FontSize="18" x:Name="Ingredients" TextChanged="IngTextChanged" AutoSize="TextChanges" Text="Spaghetti &#10; 500g mince &#10; Tomatoes"/>
+            <Editor TextColor="black" FontSize="18" x:Name="Ingredients" AutoSize="TextChanges" Text="Spaghetti &#10; 500g mince &#10; Tomatoes"/>
             <Label Text="Steps"/>
-            <Editor TextColor="black" FontSize="18" x:Name="Steps" TextChanged="StepsTextChanged" AutoSize="TextChanges" Text="1. Boil water &#10; 2. Add salt &#10; 3. Add spaghetti"/>
+            <Editor TextColor="black" FontSize="18" x:Name="Steps" AutoSize="TextChanges" Text="1. Boil water &#10; 2. Add salt &#10; 3. Add spaghetti"/>
             <StackLayout Orientation="Horizontal">
                 <StackLayout>
                     <Button Padding="70,0" BackgroundColor="LightGray" Text="Save"/>

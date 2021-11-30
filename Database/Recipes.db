@@ -1,0 +1,7 @@
+CREATE TABLE recipedata (
+ID INT PRIMARY KEY,
+RecName string NOT NULL,
+RecSrc string NOT NULL,
+Ing string NOT NULL,
+Steps string NOT NULL
+);

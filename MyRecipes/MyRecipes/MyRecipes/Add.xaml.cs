@@ -19,7 +19,7 @@ namespace MyRecipes
 
         void Save()
         {
-            File.WriteAllText(Editor.TextProperty, );
+            
         }
     }
 }
