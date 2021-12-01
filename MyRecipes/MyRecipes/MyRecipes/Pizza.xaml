@@ -4,7 +4,7 @@
              x:Class="MyRecipes.Pizza">
     <ContentView Padding="20" BackgroundColor="Beige">
         <StackLayout>
-            <Editor Text="Pizza" AutoSize="TextChanges" x:Name="RecipeEdit" TextColor="black" FontAttributes="Bold" TextChanged="RecipeChanged" FontSize="20"/>
+            <Editor Text="Pizza 🍕" AutoSize="TextChanges" x:Name="RecipeEdit" TextColor="black" FontAttributes="Bold" TextChanged="RecipeChanged" FontSize="20"/>
             <Editor Text="Jamie Oliver"  AutoSize="TextChanges" x:Name="SourceEdit" TextChanged="SourceChanged"  TextColor="black" FontSize="18"/>
             <Label Text="Ingredients"/>
             <Editor TextColor="black" AutoSize="TextChanges" x:Name="IngredsEdit" FontSize="18" TextChanged="IngredsChanged" Text="Pizza Dough &#10; Tomato Paste &#10; Mozzarella"/>

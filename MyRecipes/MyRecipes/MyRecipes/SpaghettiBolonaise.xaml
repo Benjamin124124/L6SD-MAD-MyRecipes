@@ -4,7 +4,7 @@
              x:Class="MyRecipes.SpaghettiBolonaise">
     <ContentView Padding="20" BackgroundColor="Beige">
         <StackLayout>
-            <Editor Text="Spaghetti Bolognaise" x:Name="Recipe" AutoSize="TextChanges" TextColor="black" FontAttributes="Bold" FontSize="20"/>
+            <Editor Text="Spaghetti Bolognaise 🍝" x:Name="Recipe" AutoSize="TextChanges" TextColor="black" FontAttributes="Bold" FontSize="20"/>
             <Editor Text="Steve" x:Name="Source" AutoSize="TextChanges" TextColor="black" FontSize="18"/>
             <Label Text="Ingredients"/>
             <Editor TextColor="black" FontSize="18" x:Name="Ingredients" AutoSize="TextChanges" Text="Spaghetti &#10; 500g mince &#10; Tomatoes"/>

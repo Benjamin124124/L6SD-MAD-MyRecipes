@@ -2,11 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyRecipes.Lasagne">
-    <ContentPage.Content>
+    <ContentView Padding="20" BackgroundColor="Beige">
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Editor Text="Lasagne" AutoSize="TextChanges" 
+                    TextColor="black" FontAttributes="Bold" FontSize="20"/>
+            <Editor Text="Gordon Ramsey" 
+                    AutoSize="TextChanges" TextColor="black" FontSize="18"/>
+            <Label Text="Ingredients"/>
+            <Editor TextColor="black" FontSize="18" 
+                    AutoSize="TextChanges" Text="Burger Buns &#10; 500g mince &#10; Cheese"/>
+            <Label Text="Steps"/>
+            <Editor TextColor="black" FontSize="18" 
+                    AutoSize="TextChanges" Text="1. Grill Burger buns &#10; 2. Make beef pattys &#10; 3. Add Cheese"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout>
+                    <Button Padding="70,0" BackgroundColor="LightGray" Text="Save"/>
+                </StackLayout>
+                <StackLayout>
+                    <Button Padding="70,0" BackgroundColor="LightGray" Text="Delete" Clicked="OnDelete"/>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
-    </ContentPage.Content>
+    </ContentView>
 </ContentPage>
