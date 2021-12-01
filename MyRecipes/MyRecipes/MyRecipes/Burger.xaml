@@ -4,7 +4,7 @@
              x:Class="MyRecipes.Burger">
     <ContentView Padding="20" BackgroundColor="Beige">
         <StackLayout>
-            <Editor Text="Burger" AutoSize="TextChanges" 
+            <Editor Text="Burger 🍔" AutoSize="TextChanges" 
                     TextColor="black" FontAttributes="Bold" FontSize="20"/>
             <Editor Text="Gordon Ramsey" 
                     AutoSize="TextChanges" TextColor="black" FontSize="18"/>

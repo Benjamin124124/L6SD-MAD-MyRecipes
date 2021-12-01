@@ -6,14 +6,14 @@
         <StackLayout>
             <Editor Text="Lasagne" AutoSize="TextChanges" 
                     TextColor="black" FontAttributes="Bold" FontSize="20"/>
-            <Editor Text="Gordon Ramsey" 
+            <Editor Text="Andrew" 
                     AutoSize="TextChanges" TextColor="black" FontSize="18"/>
             <Label Text="Ingredients"/>
             <Editor TextColor="black" FontSize="18" 
-                    AutoSize="TextChanges" Text="Burger Buns &#10; 500g mince &#10; Cheese"/>
+                    AutoSize="TextChanges" Text="Pasta  &#10; 500g mince &#10; Cheese"/>
             <Label Text="Steps"/>
             <Editor TextColor="black" FontSize="18" 
-                    AutoSize="TextChanges" Text="1. Grill Burger buns &#10; 2. Make beef pattys &#10; 3. Add Cheese"/>
+                    AutoSize="TextChanges" Text="1. Layer Pasta and mince &#10; 2. Make beef pattys &#10; 3. Add Cheese"/>
             <StackLayout Orientation="Horizontal">
                 <StackLayout>
                     <Button Padding="70,0" BackgroundColor="LightGray" Text="Save"/>
